@@ -4,13 +4,13 @@ using namespace std;
 
 int main() {
     int x;
-    cout<<"Podaj wartość x: ";
+    cout<<"Podaj wartosc x: ";
     cin>>x;
 
     if(x>0)
-       cout<<"Podałeś wartość dodatnią"<<endl;
+       cout<<"Podales wartosc dodatnia"<<endl;
     else
-       cout<<"Podałeś wartość niedodatnią"<<endl;
+       cout<<"Podales wartosc niedodatnia"<<endl;
 
     return 0;
 }
