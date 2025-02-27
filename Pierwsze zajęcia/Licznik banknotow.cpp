@@ -36,7 +36,7 @@ int main() {
     x=x%5;
     cout << "2gr: " << x/2 << endl;
     x=x%2;
-    cout << "1gr: " << endl;
+    cout << "1gr: " << x << endl;
 
     return 0;
 }
