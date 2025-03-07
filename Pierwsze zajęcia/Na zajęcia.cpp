@@ -22,3 +22,18 @@ int main() {
 
     return 0;  // Zakończenie programu, zwrócenie wartości 0, co oznacza prawidłowe zakończenie programu
 }
+/*
+Wyjaśnienia do kodu:
+
+#include <iostream> – Ten nagłówek jest wymagany do korzystania z funkcji do wejścia (cin) i wyjścia (cout), które są wykorzystywane w programie.
+
+cin >> x; – Służy do pobierania danych od użytkownika i zapisania ich do zmiennej x.
+
+if (x > 0) – Jest to warunek, który sprawdza, czy wartość zmiennej x jest większa od 0. Jeśli warunek jest spełniony, wyświetlany jest komunikat o wartości dodatniej.
+
+else if (x == 0) – Jeżeli poprzedni warunek nie został spełniony (czyli x nie jest większe od 0), sprawdzamy, czy x jest równe 0. Jeśli tak, wyświetlany jest komunikat o wartości zerowej.
+
+else – Jeśli żaden z powyższych warunków nie został spełniony (czyli x jest mniejsze od 0), to wyświetlany jest komunikat o wartości ujemnej.
+
+return 0; – Zakończenie programu, zwrócenie wartości 0 do systemu operacyjnego, co oznacza poprawne zakończenie programu.
+*/

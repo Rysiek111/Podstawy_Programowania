@@ -72,3 +72,12 @@ int main() {
 
     return 0;  // Zakończenie programu, zwrócenie wartości 0, co oznacza prawidłowe zakończenie programu
 }
+/*
+Wyjaśnienia do kodu:
+
+cin >> x; – Wczytuje kwotę podaną przez użytkownika w groszach (czyli liczba całkowita, np. 25000 oznacza 250 zł).
+x / 50000 – Oblicza liczbę pełnych banknotów o nominale 500 zł (50000 groszy). Następnie reszta kwoty jest obliczana za pomocą x % 50000, co daje resztę po podzieleniu przez 50000.
+x % 50000 – Oblicza resztę po podzieleniu kwoty przez 50000, co oznacza, ile groszy zostaje po "wydaniu" banknotu 500 zł.
+Powtarzanie tego procesu dla innych nominałów (200 zł, 100 zł itd.) pozwala na wyświetlenie ilości banknotów i monet w różnych nominałach.
+Program kończy się, wyświetlając, ile pełnych monet 1 grosza pozostało, a następnie zwraca wartość 0, co oznacza, że program zakończył się pomyślnie.
+*/

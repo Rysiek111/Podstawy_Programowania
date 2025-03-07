@@ -25,3 +25,16 @@ int main() {
 
     return 0;  // Zakończenie programu, zwrócenie wartości 0, co oznacza prawidłowe zakończenie programu
 }
+/*
+Wyjaśnienia do niektórych fragmentów kodu:
+
+#include <iostream> – Ten nagłówek jest potrzebny, aby korzystać z funkcji do wyświetlania danych (cout) oraz wprowadzania danych (cin).
+
+using namespace std; – To pozwala na korzystanie z funkcji i obiektów z przestrzeni nazw std bez konieczności pisania przed nimi std::.
+
+cin >> x; i cin >> y; – Służą do wprowadzenia danych przez użytkownika, które są następnie zapisywane w zmiennych x i y.
+
+cout << ... – Używane do wyświetlania wyników na ekranie.
+
+return 0; – Kończy program i zwraca wartość 0 do systemu operacyjnego, co oznacza, że program zakończył się poprawnie.
+*/
