@@ -1,7 +1,6 @@
 /*
-Napisać program obliczający obwód i pole trujkąta na podstawie danych długości boków a,b i c,
-ale tylko w przypadku, kiedy wszystkie boki są dodatnie
-oraz suma dłigości dwóch dowolnych boków jest większa od trzeciego.
+Napisać program obliczający obwód i pole trójkąta na podstawie danych długości boków a, b i c,
+ale tylko w przypadku, kiedy wszystkie boki są dodatnie oraz suma długości dwóch dowolnych boków jest większa od trzeciego.
 Do obliczania pola trójkąta wykorzystać wzór Herona.
 */
 
