@@ -16,29 +16,19 @@ int main()
 
     cout<<"Podaj ile razy mam sie powtorzyc: ";
     cin>>n;
-    double suma=0;
+
     cout<<"a1 = "<<a1<<endl;
 
-    if(n >= 1)
-    {
-        suma=a1;
-    }
     if(n >= 2)
-    {
-        suma=a2;
         cout<<"a2 = "<<a2<<endl;
-    }
 
     for(int i=3; i<=n; i++)
     {
         double a = a1 + a2;
-        suma += a;
         a1 = a2;
         a2 = a;
         cout<<"a"<<i<<" = "<<a<<endl;
     }
-
-     cout << "Suma ciagu wynosi: " << suma << endl;
 
     return 0;
 }
