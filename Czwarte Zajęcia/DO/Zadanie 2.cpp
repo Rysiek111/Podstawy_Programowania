@@ -1,18 +1,19 @@
-#include <iostream>
+#include <iostream>  // Biblioteka do obsługi wejścia i wyjścia
 
+using namespace std; // Używanie przestrzeni nazw std, aby uniknąć pisania std:: przed cout i cin
 
-using namespace std;
-
-main()
+int main()  // Funkcja main(), punkt wejścia do programu
 {
-    char dec;
+    char dec;  // Zmienna przechowująca odpowiedź użytkownika (T/N)
 
-    do
+    do  // Pętla do-while, która będzie się powtarzać, dopóki użytkownik nie zdecyduje, że chce zakończyć
     {
-        cout<<"Tu sa obliczenia."<<endl;
-        cout<<"Czy chcesz jeszcze raz ? (T/N)"<<endl;
-        cin>>dec;
+        cout << "Tu sa obliczenia." << endl;  // Komunikat informujący o obliczeniach
+        cout << "Czy chcesz jeszcze raz ? (T/N)" << endl;  // Prośba o odpowiedź użytkownika, czy chce powtórzyć obliczenia
+        cin >> dec;  // Wczytanie odpowiedzi użytkownika (T/N)
     }
-    while((dec!='N')&&(dec!='n'));
+    // Pętla powtarza się, dopóki użytkownik nie wprowadzi 'N' lub 'n' (oznaczające zakończenie)
+    while ((dec != 'N') && (dec != 'n'));  // Warunek zakończenia pętli: jeśli użytkownik wybierze 'N' lub 'n', pętla się kończy
 
+    return 0;  // Zakończenie programu
 }
