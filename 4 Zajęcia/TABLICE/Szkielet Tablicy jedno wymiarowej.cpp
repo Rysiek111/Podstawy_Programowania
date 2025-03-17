@@ -3,7 +3,7 @@
 
 using namespace std;
 
-main()
+int main()
 {
     const int n=10;
     double w[n];
@@ -19,4 +19,5 @@ main()
     for(int i=0; i<=n-1; i++)
         cout<<"w["<<i<<"]= "<<w[i]<<", ";
 
+    return 0;
 }
