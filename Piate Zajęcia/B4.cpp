@@ -13,15 +13,17 @@ main()
     double w[n];
     int i;
 
-    for(i=0;i<=n-1;i++)
+    for(i=0; i<=n-1; i++){
+         cout<<"w["<<i<<"]= ";
         cin>>w[i];
+        }
 
     //szukanie minimum
     double min=w[0],max=w[0];
-    for(i=1;i<=n-1;i++)
+    for(i=1; i<=n-1; i++)
         if(w[i]<min) min=w[i];
         else if(w[i]>max)
-                max=w[i];
+            max=w[i];
 
     cout<<"min="<<min<<endl;
     cout<<"max="<<max;
