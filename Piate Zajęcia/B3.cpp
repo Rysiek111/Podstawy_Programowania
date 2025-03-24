@@ -10,24 +10,24 @@ using namespace std;
 int main()
 {
     const int n=10;
-    double w[n],m[n];
+    double w1[n],w2[n];
 
     for(int i=0; i<=n-1; i++)
     {
         cout<<"w["<<i<<"]= ";
-        cin>>w[i];
+        cin>>w1[i];
     }
 
 /////////////////////////////////////////
 
     for(int x=0; x<=n-1; x++)
-        m[x] = w[n-(x+1)];
+        w2[x] = w1[n-(x+1)];
 
 /////////////////////////////////////////
 
     cout<<endl;
     for(int i=0; i<=n-1; i++)
-        cout<<"m["<<i<<"]= "<<m[i]<<", "<<endl;
+        cout<<"w2["<<i<<"]= "<<w2[i]<<", "<<endl;
 
     return 0;
 }
