@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
     const int n=10,m=n;
     double a[n][m];
     int i,j;
