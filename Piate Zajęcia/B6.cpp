@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    const int n=3,m=n;
+    const int n=5,m=n;
     double a[n][m];
     int i,j;
 
