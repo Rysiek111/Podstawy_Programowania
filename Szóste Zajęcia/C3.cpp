@@ -28,7 +28,6 @@ int main()
 
     for(i=0; i<=n-1; i++)
         for(j=0; j<=m-1; j++)
-        {
             if(w[i][j]>0)
                 signum[i][j]=1;
             else
@@ -36,7 +35,6 @@ int main()
                     signum[i][j]=-1;
                 else
                     signum[i][j]=0;
-        }
 
 ////////////////////////////////////////////////////////////
 
