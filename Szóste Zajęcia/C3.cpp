@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
     const int n=5,m=n;
-    double w[n][m],s[n][m];
+    double w[n][m],signum[n][m];
     int i,j;
 
     for(i=0; i<=n-1; i++)
@@ -30,12 +30,12 @@ int main()
         for(j=0; j<=m-1; j++)
         {
             if(w[i][j]>0)
-                s[i][j]=1;
+                signum[i][j]=1;
             else
                 if(w[i][j]<0)
-                    s[i][j]=-1;
+                    signum[i][j]=-1;
                 else
-                    s[i][j]=0;
+                    signum[i][j]=0;
         }
 
 ////////////////////////////////////////////////////////////
@@ -52,7 +52,7 @@ cout<<"Tabela podana:"<<endl;
     for(i=0; i<=n-1; i++)
     {
         for(j=0; j<=m-1; j++)
-            cout<<s[i][j]<<"\t";
+            cout<<signum[i][j]<<"\t";
         cout<<endl;
     }
 
