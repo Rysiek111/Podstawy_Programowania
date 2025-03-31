@@ -10,14 +10,14 @@ using namespace std;
 int main()
 {
     const int n=2,m=n;
-    int a[n][m];
+    int w[n][m];
     int i,j;
 
     for(i=0; i<=n-1; i++)
         for(j=0; j<=m-1; j++)
         {
-            cout<<"a["<<i<<"]["<<j<<"]=";
-            cin>>a[i][j];
+            cout<<"w["<<i<<"]["<<j<<"]=";
+            cin>>w[i][j];
         }
     cout<<endl;
 ////////////////////////////////////////////////////////////
@@ -26,20 +26,19 @@ int main()
     for(i=0; i<=n-1; i++)
         for(j=0; j<=m-1; j++)
         {
-            if(a[i][j]%2==0)
+            if(w[i][j]%2==0)
                 ilosc++;
         }
-    cout<<"Ilosc: "<<ilosc<<endl;
+    cout<<"Ilosc parzystych elementow: "<<ilosc<<endl;
     cout<<endl;
 
 ////////////////////////////////////////////////////////////
     for(i=0; i<=n-1; i++)
     {
         for(j=0; j<=m-1; j++)
-            cout<<a[i][j]<<"\t";
+            cout<<w[i][j]<<"\t";
         cout<<endl;
     }
 
     return 0;
 }
-
