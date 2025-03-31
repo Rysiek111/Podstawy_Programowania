@@ -40,6 +40,7 @@ int main()
 
 ////////////////////////////////////////////////////////////
 
+cout<<"Tabela podana:"<<endl;
     for(i=0; i<=n-1; i++)
     {
         for(j=0; j<=m-1; j++)
@@ -47,6 +48,7 @@ int main()
         cout<<endl;
     }
     cout<<endl;
+    cout<<"Signum:"<<endl;
     for(i=0; i<=n-1; i++)
     {
         for(j=0; j<=m-1; j++)
