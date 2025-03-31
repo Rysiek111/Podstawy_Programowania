@@ -18,17 +18,15 @@ int main()
         {
             cout<<"w["<<i<<"]["<<j<<"]=";
             cin>>w[i][j];
-        }
+    
     cout<<endl;
 ////////////////////////////////////////////////////////////
 
     int ilosc;
     for(i=0; i<=n-1; i++)
         for(j=0; j<=m-1; j++)
-        {
             if(w[i][j]%2==0)
                 ilosc++;
-        }
     cout<<"Ilosc parzystych elementow: "<<ilosc<<endl;
     cout<<endl;
 
