@@ -4,11 +4,11 @@ using namespace std;
 
 void wizytowka(string imie,string nazwisko)
 {
-cout<<"************************"<<endl;
-cout<<"*                      *"<<endl;
-cout<<"*    "<<imie<<"  "<<nazwisko<<"    *"<<endl;
-cout<<"*                      *"<<endl;
-cout<<"************************"<<endl;
+    cout<<"************************"<<endl;
+    cout<<"*                      *"<<endl;
+    cout<<"*    "<<imie<<"  "<<nazwisko<<"    *"<<endl;
+    cout<<"*                      *"<<endl;
+    cout<<"************************"<<endl;
 }
 
 int main()
