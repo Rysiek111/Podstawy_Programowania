@@ -15,6 +15,10 @@ int main()
 
     for(i=0; i<=n-1; i++)
         for(j=0; j<=m-1; j++)
+        /*
+        Alternatywna wersja:
+            w[i][j]=(i+j)%2;
+        */
             if((i+j)%2==0)
                 w[i][j]=0;
             else
