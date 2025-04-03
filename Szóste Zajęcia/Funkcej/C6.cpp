@@ -8,8 +8,8 @@ using namespace std;
 
 void wypisywanie(string tekst,int powturzenia)
 {
-    for(int g=1; g<=powturzenia-1; g++)
-        cout<<g<<"."<<tekst<<endl;
+    for(int g=0; g<=powturzenia-1; g++)
+        cout<<g+1<<"."<<tekst<<endl;
 }
 
 int main()
