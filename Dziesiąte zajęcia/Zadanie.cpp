@@ -22,6 +22,7 @@ i) funkcję typu int o nazwie kierunek_zgodny, zwracającą wartość 1 (prawda)
 
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
 struct wektor
