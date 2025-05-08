@@ -47,7 +47,6 @@ void iloczyn_wektorowy(twektor w1,twektor w2,twektor& w3)
     w3.z=w1.x*w2.y-w1.y*w2.x;
 }
 
-
 int main()
 {
     twektor w1,w2,w3;
