@@ -32,8 +32,12 @@ struct wektor
 
 void podaj_wektor(wektor &w)
 {
-    cout << "Podaj wspolrzedne wektora (x y z): ";
-    cin >> w.x >> w.y >> w.z;
+    cout<<"Podaj x:";
+    cin>>w.x;
+    cout<<"Podaj y:";
+    cin>>w.y;
+    cout<<"Podaj z:";
+    cin>>w.z;
 }
 
 void wypisz_wektor(wektor w)
@@ -68,16 +72,10 @@ void iloczyn_wektorowy(wektor w1, wektor w2, wektor &w3)
 void wersor(wektor w, wektor &tau)
 {
     double dl = dlugosc_wektora(w);
-    if (dl != 0)
-    {
-        tau.x = w.x / dl;
-        tau.y = w.y / dl;
-        tau.z = w.z / dl;
-    }
-    else
-    {
-        tau = {0, 0, 0};
-    }
+
+    tau.x = w.x / dl;
+    tau.y = w.y / dl;
+    tau.z = w.z / dl;
 }
 
 void iloczyn_skalarny_wektor(double s, wektor w1, wektor &w2)
