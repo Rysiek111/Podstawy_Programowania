@@ -117,7 +117,7 @@ int main()
 
     cout << "Podaj liczbe (skalar): ";
     cin >> skalar;
-    iloczyn_skalarny_wektor(skalar, w1);
+    w3=iloczyn_skalarny_wektor(skalar, w1);
     cout << "Skalar * w1 = ";
     wypisz_wektor(w3);
 
@@ -126,3 +126,4 @@ int main()
 
     return 0;
 }
+
