@@ -76,12 +76,11 @@ wektor iloczyn_skalarny_wektor(double s, wektor w1)
     return w2;
 }
 
-/*int kierunek_zgodny(wektor w1, wektor w2)
+int kierunek_zgodny(wektor w1, wektor w2)
 {
-    wektor w_cross;
-    iloczyn_wektorowy(w1, w2, w_cross);
+    wektor w_cross = iloczyn_wektorowy(w1, w2);
     return (w_cross.x == 0 && w_cross.y == 0 && w_cross.z == 0) ? 1 : 0;
-}*/
+}
 
 int main()
 {
@@ -121,9 +120,8 @@ int main()
     cout << "Skalar * w1 = ";
     wypisz_wektor(w3);
 
-    //int zgodny = kierunek_zgodny(w1, w2);
-    //cout << "Czy w1 i w2 maja zgodny kierunek? " << (zgodny ? "Tak" : "Nie") << endl;
+    int zgodny = kierunek_zgodny(w1, w2);
+    cout << "Czy w1 i w2 maja zgodny kierunek? " << (zgodny ? "Tak" : "Nie") << endl;
 
     return 0;
 }
-
